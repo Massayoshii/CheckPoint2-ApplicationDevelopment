@@ -1,31 +1,31 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #003366;
+.header {
+    background-color: #0052cc;
     color: white;
     text-align: center;
-    padding: 20px; 
+    padding: 20px;
 }
 
-header img {
-    width: 200px;
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
 }
 
-nav {
-    background-color: #0055aa;
+.menu {
+    background-color: #333;
     text-align: center;
     padding: 10px;
 }
 
-nav a {
+.menu a {
     color: white;
+    margin: 10px;
     text-decoration: none;
-    margin: 10px; 
-    font-weight: bold;
 }
 
 .container {
@@ -34,18 +34,9 @@ nav a {
 
 .box {
     background-color: white;
-    padding: 20px; 
-    margin: 20px 0; 
+    margin: 15px;
+    padding: 15px;
     border: 2px solid #ccc;
-    border-radius: 10px;
-}
-
-h2 {
-    color: #003366;
-}
-
-ul {
-    margin-left: 20px;
 }
 
 table {
@@ -54,23 +45,10 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #999;
-}
-
-th {
-    background-color: #003366;
-    color: white;
+    border: 1px solid black;
 }
 
 th, td {
     padding: 10px;
     text-align: center;
-}
-
-footer {
-    background-color: #003366;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 20px;
 }
